@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign In</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/signIn.css">
 </head>
 
 <body>
-    <h1 class="sign-in">Sign in</h1>
-     
-    <img class="logo" src="" alt="">
+    <main >
+        <div class="conteudo">
+            <h1 class="sign-in">Sign in</h1>
+        
+            <figure class="logo"><img src="./assets/icones/logo.png"></figure>
 
-    <p class="label">E-mail</p>
-    <input name="email" type="text"/>
-    
-    <p class="label">Senha</p>
-    <input name="senha" type="text"/>
+            <p class="label">E-mail</p>
+            <input class="input" name="email" type="email"/>
+        
+            <p class="label">Senha</p>
+            <input class="input" name="senha" type="password"/>
+            <a href="" ><p >Lembrar Senha</p></a>
 
+            <button id="btn-sign-in" onclick="tratarClick()">Sign In</button>
+        </div>
+    </main>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
