@@ -1,3 +1,3 @@
-function tratarClick(){
-    console.log("qualquer coisa so pra testar")
+function tratarClick(e= 2){
+    console.log("qualquer coisa so pra testar", e)
 }
