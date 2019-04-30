@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign In</title>
+    <title>Entrar</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/signIn.css">
 </head>
@@ -13,18 +13,15 @@
 <body>
     <main >
         <div class="conteudo">
-            <h1 class="sign-in">Sign in</h1>
-        
+            <h1 class="sign-in"></h1>        
             <figure class="logo"><img src="./assets/icones/logo.png"></figure>
 
-            <p class="label">E-mail</p>
-            <input class="input" name="email" type="email"/>
-        
-            <p class="label">Senha</p>
-            <input class="input" name="senha" type="password"/>
-            <a href="" ><p >Lembrar Senha</p></a>
-
-            <button id="btn-sign-in" onclick="tratarClick()">Sign In</button>
+            <input class="input" name="email" type="email" placeholder="E-mail"/>
+            <input class="input" name="senha" type="password" placeholder="Senha"/>
+            
+            <a href="home.html" class="btn">Entrar</a>
+            <a class="lembrar-senha">Lembrar Senha</a>
+            <a href="inscreva-se.html" class="btn">Inscreva-se</a>
         </div>
     </main>
     <script src="./scripts/index.js"></script>
